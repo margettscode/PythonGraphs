@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-y = np.array([35, 25, 25, 15])
+y = np.array([35, 25, 25, 15])      #np.array is a function from NumPy which allows us to create arrays for visualisations - similar to a Python list but with more functionality.
 mylabels = ["Pepperoni", "BBQ Chicken", "Margherita", "Hawaiian"]
 
 plt.pie(y, labels = mylabels, startangle = 90)
