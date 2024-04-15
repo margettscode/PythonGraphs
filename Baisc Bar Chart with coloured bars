@@ -1,0 +1,19 @@
+import matplotlib.pyplot as plt
+
+# Data
+categories = ['Cat', 'Dog', 'Fish', 'Iguana']
+values = [20, 35, 30, 15]
+colors = ['red', 'blue', 'green', 'orange']  # Specify colors for each bar
+
+
+
+# Create bar chart with custom colors
+plt.bar(categories, values, color=colors)
+
+# Add labels and title
+plt.xlabel('Pets')
+plt.ylabel('Frequency')
+plt.title('Frequency of pet ownership for class 8C')
+
+# Show plot
+plt.show()
