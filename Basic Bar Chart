@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+# Data
+categories = ['Cat', 'Dog', 'Fish', 'Iguana']
+values = [20, 35, 30, 15]
+
+# Create bar chart
+plt.bar(categories, values)
+
+# Add labels and title
+plt.xlabel('Pets')
+plt.ylabel('Frequency')
+plt.title('Frequency of pet ownership for class 8C')
+
+# Show plot
+plt.show()
