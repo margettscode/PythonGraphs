@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+y = np.array([35, 25, 25, 15])    #np.array is a function from NumPy which allows us to create arrays for visualisations - similar to a Python list but with more functionality.
+mylabels = ["Pepperoni", "BBQ Chicken", "Margherita", "Hawaiian"]
+myexplode = [0.2, 0, 0, 0]
+
+plt.pie(y, labels = mylabels, startangle = 90, explode = myexplode)
+
+# title
+plt.title('Favourite pizza types fror 9D')
+
+
+plt.show() 
